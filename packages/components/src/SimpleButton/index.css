@@ -1,0 +1,13 @@
+button {
+  font-size: 15px;
+  font-family: Helvetica;
+  text-align: center;
+  color: white;
+  line-height: 18px;
+  width: 145px;
+  height: 36px;
+  opacity: 1;
+  background: #6170ff;
+  border-radius: 3px;
+  box-shadow: 0px 2px 6px 0px rgba(147,147,147,0.50);
+}

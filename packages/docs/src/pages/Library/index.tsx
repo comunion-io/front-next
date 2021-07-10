@@ -3,6 +3,7 @@ import { RouterView } from 'vue-router'
 import { componentSymbol } from '../../provide'
 import { ComponentMap } from '../../types'
 import { Navigators } from '@comunion/components/src'
+import { SimpleButton } from '@comunion/components/src'
 
 import './index.css'
 
@@ -27,7 +28,7 @@ export default defineComponent({
         <div class="p-library-right">
           <div class="p-library-header">todo</div>
           <div class="p-library-content">
-            <RouterView />
+            <SimpleButton />
           </div>
         </div>
       </div>
